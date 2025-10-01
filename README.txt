@@ -1,3 +1,14 @@
+GAMEPLAY LEVEL
+2 hours - trying to set up dialogue for the signs. This is hard. Wow.
+30 min - making UI elements for (failed) dialogue system in Aseprite
+30 min - building flappable lever that will toggle spikes. THIS WORKS. later.. messes up :/ But spikes and lever exist.
+90 min - sketching then building new level with branching options for exploration, loops back at the start, slowly introduces new movement mechanics
+1 hour - lost progress due to my own lack of commits. this is where lever logic gets messed up. Attempts at restoring logic with a new, better system. Oh well. Learned a lot
+30 min - friends play the level! Documentation of their feedback to improve upon in the future, but made small changes to pacing, easier jumps earlier on, addition of smiley face, etc.
+
+
+
+ADDING JUICE - old
 10 min - finding and importing assets and plugins
 45 min - learning about platforming modifiers, what makes movement polished and playing around with values til I was satisfied with movement mechanics
 15 min - setting up player animations for all states (running, idle, wall grab, jump, etc.)
