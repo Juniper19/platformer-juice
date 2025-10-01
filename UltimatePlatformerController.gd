@@ -473,6 +473,7 @@ func _physics_process(delta):
 			if coyoteTime > 0:
 				coyoteActive = true
 				_coyoteTime()
+				_coyoteTime() ##true when jumping only 
 				
 		if jumpTap and !is_on_wall():
 			if coyoteActive:
@@ -509,7 +510,6 @@ func _physics_process(delta):
 			velocity.y = -jumpMagnitude
 			jumpCount = jumpCount - 1
 			_endGroundPound()
-			
 			
 	#INFO dashing
 	if is_on_floor():
@@ -674,3 +674,4 @@ func _endGroundPound():
 
 func _placeHolder():
 	print("")
+	

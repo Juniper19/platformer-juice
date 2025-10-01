@@ -127,7 +127,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nvl01")
 }],
-"loop": false,
+"loop": true,
 "name": &"jump",
 "speed": 10.0
 }, {
@@ -199,7 +199,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wcmxd"]
-size = Vector2(12, 20)
+size = Vector2(14, 19)
 
 [sub_resource type="Gradient" id="Gradient_i3pqv"]
 interpolation_mode = 2
@@ -235,7 +235,6 @@ maxSpeed = 117.863
 timeToReachMaxSpeed = 0.0
 timeToReachZeroSpeed = 0.1
 jumpHeight = 1.642
-jumps = 2
 gravityScale = 22.0
 descendingGravityFactor = 1.2
 jumpVariable = 8.0
@@ -258,11 +257,12 @@ roll = true
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -17)
 sprite_frames = SubResource("SpriteFrames_4drs2")
-animation = &"latch"
+animation = &"jump"
 autoplay = "idle"
+frame_progress = 0.992772
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -15)
+position = Vector2(0, -14.5)
 shape = SubResource("RectangleShape2D_wcmxd")
 
 [node name="lCast" type="RayCast2D" parent="."]
